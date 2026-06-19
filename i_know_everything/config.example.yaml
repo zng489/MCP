@@ -1,0 +1,10 @@
+# Modelo de configuração. Copie para config.yaml e preencha com suas chaves.
+#   cp config.example.yaml config.yaml
+# O config.yaml real é ignorado pelo git (.gitignore) e NÃO deve ser commitado/compartilhado.
+
+deepseek_api_key: "COLE_SUA_CHAVE_DEEPSEEK_AQUI"
+discord_token: "COLE_SEU_TOKEN_DISCORD_AQUI"
+
+# Opcionais (têm padrão no código):
+model: "deepseek-chat"
+deepseek_base_url: "https://api.deepseek.com"

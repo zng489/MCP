@@ -1,0 +1,8 @@
+# Arquivo LOCAL com segredos — ignorado pelo git (.gitignore).
+# NÃO commitar, NÃO compartilhar. Rotacione as chaves se elas vazarem.
+
+deepseek_api_key: "sk-7dad571f48e14af2acf9caed1f1d68dc"
+discord_token: "NjMwNDM1MTEyMDYzOTkxODEw.GHSyPM.s_2YIm7cidkFcq1RhtzxOFi5WfUsWhFjQ0KWtA"
+
+model: "deepseek-chat"
+deepseek_base_url: "https://api.deepseek.com"
