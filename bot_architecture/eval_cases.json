@@ -1,0 +1,16 @@
+[
+  {"pergunta": "Qual o token de acesso do Jupyter Lab?", "espera": ["spark123"]},
+  {"pergunta": "Quais as credenciais do Polaris (root)?", "espera": ["root", "s3cr3t"]},
+  {"pergunta": "Quais são os 3 níveis de acesso do JupyterHub?", "espera": ["admin", "engenheiro", "analista"], "proibido": ["ingestion"]},
+  {"pergunta": "Qual erro comum ao conectar o Spark no Polaris usando o nome do catálogo Polaris direto?", "espera": ["spark_catalog"]},
+  {"pergunta": "Em qual porta roda a API do RustFS (S3)?", "espera": ["9000"]},
+  {"pergunta": "Qual a porta da UI do Airflow?", "espera": ["8090"]},
+  {"pergunta": "Qual método NÃO devo usar para escrever Iceberg porque quebra em re-execução?", "espera": ["saveAsTable"]},
+  {"pergunta": "Qual o jeito idempotente de escrever uma tabela Iceberg no Spark?", "espera": ["createOrReplace"]},
+  {"pergunta": "Quais os três campos não-default obrigatórios no storageConfigInfo do catálogo?", "espera": ["stsUnavailable", "pathStyleAccess", "endpoint"]},
+  {"pergunta": "Como resolver o erro STS 403 (Failed to get subscoped credentials)?", "espera": ["stsUnavailable"]},
+  {"pergunta": "Como resolver o erro S3 301 (redirect)?", "espera": ["pathStyleAccess"]},
+  {"pergunta": "Qual motor de busca o OpenMetadata usa, Elasticsearch ou OpenSearch?", "espera": ["elasticsearch"]},
+  {"pergunta": "Qual pacote Python instalar para usar a CLI do Polaris?", "espera": ["apache-polaris"]},
+  {"pergunta": "Qual comando derruba a stack e apaga todos os volumes?", "espera": ["down -v"]}
+]

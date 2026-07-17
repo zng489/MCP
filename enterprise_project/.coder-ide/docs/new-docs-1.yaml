@@ -1,0 +1,6 @@
+name: New docs-1
+version: 0.0.1
+schema: v1
+docs:
+  - name: New doc-1
+    startUrl: DOC_URL

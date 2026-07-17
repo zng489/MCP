@@ -1,0 +1,4 @@
+enterprise_project/model/bge-small-en-v1.5/model.safetensors filter=lfs diff=lfs merge=lfs -text
+enterprise_project/model/bge-small-en-v1.5/onnx/model.onnx filter=lfs diff=lfs merge=lfs -text
+enterprise_project/model/bge-small-en-v1.5/pytorch_model.bin filter=lfs diff=lfs merge=lfs -text
+enterprise_project/model/tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf filter=lfs diff=lfs merge=lfs -text

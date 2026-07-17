@@ -1,0 +1,37 @@
+[
+  {
+    "pergunta": "Qual a porta do Jupyter Lab?",
+    "esperado": ["8888"],
+    "proibido": []
+  },
+  {
+    "pergunta": "Como subir o stack sem o OpenMetadata?",
+    "esperado": ["docker compose up"],
+    "proibido": []
+  },
+  {
+    "pergunta": "Qual a credencial do RustFS?",
+    "esperado": ["rustfs"],
+    "proibido": []
+  },
+  {
+    "pergunta": "O que é o Polaris e para que serve?",
+    "esperado": ["Iceberg", "catálogo"],
+    "proibido": []
+  },
+  {
+    "pergunta": "Como conectar o Spark ao Polaris?",
+    "esperado": ["SparkSession"],
+    "proibido": []
+  },
+  {
+    "pergunta": "O que acontece com os dados se eu rodar docker compose down -v?",
+    "esperado": ["volumes", "perde"],
+    "proibido": []
+  },
+  {
+    "pergunta": "Qual a arquitetura medallion usada na stack?",
+    "esperado": ["bronze", "silver", "gold"],
+    "proibido": []
+  }
+]
